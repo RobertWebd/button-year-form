@@ -24,7 +24,7 @@ export const StyledLink = styled(Link)<StyledNavLinkProps>`
   }
 
   ${({ isactive }) =>
-    isactive &&
+    isactive === 'true' &&
     `
     background-color: rgb(48, 50, 53);
   `}
