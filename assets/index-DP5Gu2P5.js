@@ -171,7 +171,7 @@ Error generating stack: `+i.message+`
   border-radius: 5px;
   cursor: pointer;
   background-color: rgb(23, 246, 249);
-`,$0=()=>{const[e,t]=O.useState(of()),n=()=>{t(of())};return j.jsxs(F0,{children:[j.jsx("div",{children:e.currentDate}),j.jsx("div",{children:e.time}),j.jsx(I0,{onClick:n,children:"Обновить"})]})};function D0(){return j.jsx(jy,{children:j.jsxs(Ur,{path:"/",element:j.jsx(l0,{}),children:[j.jsx(Ur,{path:"/",element:j.jsx(u0,{})}),j.jsx(Ur,{path:"/form",element:j.jsx(z0,{})}),j.jsx(Ur,{path:"/year",element:j.jsx($0,{})})]})})}const j0=Xg`
+`,$0=()=>{const[e,t]=O.useState(of()),n=()=>{t(of())};return j.jsxs(F0,{children:[j.jsx("div",{children:e.currentDate}),j.jsx("div",{children:e.time}),j.jsx(I0,{onClick:n,children:"Обновить"})]})};function D0(){return j.jsx(jy,{children:j.jsxs(Ur,{path:"/button-year-form",element:j.jsx(l0,{}),children:[j.jsx(Ur,{path:"/button-year-form",element:j.jsx(u0,{})}),j.jsx(Ur,{path:"/button-year-form/form",element:j.jsx(z0,{})}),j.jsx(Ur,{path:"/button-year-form/year",element:j.jsx($0,{})})]})})}const j0=Xg`
 *,
 *::before,
 *::after {
