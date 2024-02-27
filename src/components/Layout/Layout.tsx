@@ -18,13 +18,13 @@ export const Layout = () => {
   return (
     <>
       <Header>
-        <NavLinkItem to="/">
+        <NavLinkItem to="/button-year-form">
           Button <div>{'>'}</div>
         </NavLinkItem>
-        <NavLinkItem to="/year">
+        <NavLinkItem to="/button-year-form/year">
           Year <div>{'>'}</div>
         </NavLinkItem>
-        <NavLinkItem to="/form">
+        <NavLinkItem to="/button-year-form/form">
           Form <div>{'>'}</div>
         </NavLinkItem>
       </Header>
