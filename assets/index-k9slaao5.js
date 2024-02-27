@@ -125,7 +125,7 @@ Error generating stack: `+i.message+`
     background-color: rgb(48, 50, 53);
   }
 
-  ${({isactive:e})=>e&&`
+  ${({isactive:e})=>e==="true"&&`
     background-color: rgb(48, 50, 53);
   `}
 `;function Zo({to:e,children:t}){const n=yy(e),r=n!=null;return j.jsx("li",{children:j.jsx(r0,{to:e,isactive:r.toString(),children:t})})}const l0=()=>j.jsxs(j.Fragment,{children:[j.jsxs(n0,{children:[j.jsxs(Zo,{to:"/button-year-form",children:["Button ",j.jsx("div",{children:">"})]}),j.jsxs(Zo,{to:"/button-year-form/year",children:["Year ",j.jsx("div",{children:">"})]}),j.jsxs(Zo,{to:"/button-year-form/form",children:["Form ",j.jsx("div",{children:">"})]})]}),j.jsx($y,{})]}),i0=Pe.button`
