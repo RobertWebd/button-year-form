@@ -14,7 +14,7 @@ export const padBorderCursor = `
     cursor: pointer;
 `;
 
-export const commonStyle = `
+export const buttonCommonStyle = `
   ${padBorderCursor}
   color: white;
   background-color: rgb(48, 50, 53);

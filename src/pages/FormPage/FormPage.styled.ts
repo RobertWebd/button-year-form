@@ -17,7 +17,7 @@ export const StyledInput = styled.input<StyledInputProps>`
   padding: 5px;
   border-radius: 5px;
   border: 1px solid rgb(21, 23, 26);
-  border: ${(props) => props.errorBg};
+  border: ${(props) => props.errorbg};
 `;
 
 export const SubmitButton = styled.button`

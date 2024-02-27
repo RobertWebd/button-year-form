@@ -3,11 +3,11 @@ import { Header, StyledLink } from './Layout.styled';
 
 function NavLinkItem({ to, children }: { to: string; children: React.ReactNode }) {
   const match = useMatch(to);
-  const isActive = match !== null && match !== undefined;
+  const isactive = match !== null && match !== undefined;
 
   return (
     <li>
-      <StyledLink to={to} isActive={isActive}>
+      <StyledLink to={to} isactive={isactive.toString()}>
         {children}
       </StyledLink>
     </li>

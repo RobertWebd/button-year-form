@@ -32,13 +32,13 @@ export const FormPage = () => {
     <FormWrapper>
       <StyledForm onSubmit={handleSubmit(onSubmit)}>
         <label>First Name</label>
-        <StyledInput {...register('firstName', { required: 'First Name is required' })} errorBg={errors.firstName && '1px solid rgb(153, 0, 0)'} />
+        <StyledInput {...register('firstName', { required: 'First Name is required' })} errorbg={errors.firstName && '1px solid rgb(153, 0, 0)'} />
         <RedText>{errors.firstName?.message}</RedText>
         <label>Email</label>
-        <StyledInput {...register('email', emailOptions)} errorBg={errors.email && '1px solid rgb(153, 0, 0)'} />
+        <StyledInput {...register('email', emailOptions)} errorbg={errors.email && '1px solid rgb(153, 0, 0)'} />
         <RedText>{errors.email?.message}</RedText>
         <label>Password</label>
-        <StyledInput type="password" {...register('password', { required: 'Password is required' })} errorBg={errors.password && '1px solid rgb(153, 0, 0)'} />
+        <StyledInput type="password" {...register('password', { required: 'Password is required' })} errorbg={errors.password && '1px solid rgb(153, 0, 0)'} />
         <RedText>{errors.password?.message}</RedText>
         <SubmitButton>Submit</SubmitButton>
       </StyledForm>

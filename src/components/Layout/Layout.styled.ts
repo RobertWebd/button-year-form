@@ -23,8 +23,8 @@ export const StyledLink = styled(Link)<StyledNavLinkProps>`
     background-color: rgb(48, 50, 53);
   }
 
-  ${({ isActive }) =>
-    isActive &&
+  ${({ isactive }) =>
+    isactive &&
     `
     background-color: rgb(48, 50, 53);
   `}

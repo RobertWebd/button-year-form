@@ -1,5 +1,5 @@
 export type StyledInputProps = {
-  errorBg?: string;
+  errorbg?: string;
 };
 
 export type FormInput = {

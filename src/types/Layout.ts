@@ -1,3 +1,3 @@
 export type StyledNavLinkProps = {
-  isActive: boolean;
+  isactive?: boolean | string;
 };
